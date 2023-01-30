@@ -1,0 +1,13 @@
+version: '3.9'
+
+services:
+  selenium:
+    # x86_64
+    image: selenium/standalone-chrome:latest
+    # arm
+    # image: seleniarm/standalone-chromium:latest
+    shm_size: "2g"
+    container_name: 'selenium'
+    ports:
+      - "4444:4444"
+      - "5900:5900"
