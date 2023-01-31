@@ -8,3 +8,6 @@ printf "\n# bash_completion\n. /usr/share/bash-completion/bash_completion\n" >> 
 # poetry install
 curl -sSL https://install.python-poetry.org | python3 -
 poetry config virtualenvs.create false
+
+# パッケージインストール
+poetry install

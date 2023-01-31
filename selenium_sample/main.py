@@ -20,7 +20,7 @@ try:
     Select(driver.find_element(By.ID, "demo-simple-select")).select_by_value("shigure")
 
     # テキストの要素をセレクターで取得し、”武蔵”を入力
-    driver.find_element(By.CSS_SELECTOR, "#\:r1\:").send_keys("武蔵")
+    driver.find_element(By.CSS_SELECTOR, "#demo-simple-text").send_keys("武蔵")
 
     # チェックボックスの要素をxpathで取得し、クリック
     driver.find_element(
