@@ -11,7 +11,4 @@
         "editor.defaultFormatter": "ms-python.black-formatter",
     },
     "python.analysis.typeCheckingMode": "basic",
-    "python.testing.pytestArgs": [
-        "test"
-    ]
 }

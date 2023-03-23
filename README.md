@@ -61,7 +61,7 @@ vacodeにてコマンドパレットを表示し、　`cmd(ctrl) + shift + p`　
 
 `Dev Containers: Reopen in Container`
 
-開発コンテナの実行が完了したら、左メニューの**実行とデバック**から**Python: main.py**を実行する。
+開発コンテナの実行が完了したら、左メニューの**テスト**から**form-app-scraping**を実行する。
 
 成功するとログが出力される。
 

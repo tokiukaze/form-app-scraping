@@ -1,5 +1,3 @@
-import traceback
-
 from selenium import webdriver
 from selenium.webdriver.remote.webdriver import WebDriver
 
@@ -18,8 +16,8 @@ def test_get_value() -> None:
     # tokiukazeのdemoページにアクセス
     driver.get("https://form-app.tokiukaze.com")
     # テスト用のwebdriverを渡して、get_value()を実行
-    select_value, text_field_value = get_value(driver, "shigure", "武蔵")
+    select_value_result, text_field_value_result = get_value(driver, "shigure", "武蔵")
     # セレクトの値が”shigure”であることを確認
-    assert select_value == "shigure"
+    assert select_value_result == "shigure"
     # テキストフィールドの値が”武蔵”であることを確認
-    assert text_field_value == "武蔵"
+    assert text_field_value_result == "武蔵"
