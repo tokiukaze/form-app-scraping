@@ -2,9 +2,9 @@ version: '3.9'
 
 services:
   selenium:
-    # x86_64
+    # CPUアーキテクチャがx86_64の場合は下記のみをコメントイン
     image: selenium/standalone-chrome:latest
-    # arm
+    # CPUアーキテクチャがarmの場合下記はのみをコメントイン
     # image: seleniarm/standalone-chromium:latest
     shm_size: "2g"
     container_name: 'selenium'
